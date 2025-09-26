@@ -26,6 +26,10 @@ p{
     text-align: justify;
     padding: 1em;
 }
+h1{
+    font-family: var(--title-font);
+    letter-spacing: .1cap;
+}
 /* -------------------- */
 /* layout */
 header{
@@ -53,7 +57,7 @@ header{
     text-align: center;
     font-size: var(--legends-size);
 }
-.main button{
+.nav button{
     width: 150px;
     margin: 10px;
     padding: 10px;
