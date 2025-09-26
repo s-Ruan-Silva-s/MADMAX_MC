@@ -1,0 +1,63 @@
+
+/* themes */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --principal-style-font: "inter", arial;
+    --title-font: "Alfa Slab One";
+    --legends-size: 0.6em;
+}
+.emphasis{
+    font-family: var(--title-font);
+}
+/* -------------------- */
+/* base */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--principal-style-font);
+}
+body{
+    min-height: 100dvh;
+    width: 100%;
+}
+p{
+    text-align: justify;
+    padding: 1em;
+}
+/* -------------------- */
+/* layout */
+header{
+    padding: 1em;
+}
+.main{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    width: 100%;
+}
+/* -------------------- */
+/* model */
+.main img{
+    width: 100%;
+}
+.main figcaption{
+    margin-top: -3.5em;
+    padding: 1em ;
+    width: 100%;
+    text-align: center;
+    font-size: var(--legends-size);
+}
+.main button{
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+/* -------------------- */
+/* state */
+/* -------------------- */
