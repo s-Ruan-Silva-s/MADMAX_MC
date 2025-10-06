@@ -62,6 +62,23 @@ header{
     margin: 10px;
     padding: 10px;
 }
+.tb_financial{
+    padding: 1em;
+}
+.tb_financial table{
+    border: 1px solid rgba(0,0,0,.5);
+}
+.tb_financial td{
+    padding: 5px;
+    border: 1px solid rgba(0,0,0,.5);
+    font-size: .8em;
+}
+.tb_financial th {
+    font-size: 1.3em;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0,.5);
+    text-align: center;
+}
 /* -------------------- */
 /* state */
 /* -------------------- */
